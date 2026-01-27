@@ -1,16 +1,42 @@
-# React + Vite
+# GitHub User Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React app built with Vite and Tailwind CSS.  
+This app lets you search GitHub users by username or name and displays user details in cards.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 Features
 
-## React Compiler
+- Search GitHub users by username or name
+- Shows user profile picture and username
+- Shows user bio (if available)
+- Shows top 3 repositories (if available)
+- Click card to open GitHub profile
+- Clear search results
+- Responsive UI with Tailwind CSS
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## 🌐 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+You can view the live demo here:
+
+https://github-user-finder-mu-drab.vercel.app
+
+---
+
+## 💻 Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- GitHub REST API
+
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
