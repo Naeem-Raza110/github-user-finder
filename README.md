@@ -1,5 +1,3 @@
- 
-
 # GitHub User Finder
 
 A simple React app built with Vite and Tailwind CSS.  
