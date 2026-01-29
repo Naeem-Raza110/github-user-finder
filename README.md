@@ -1,4 +1,4 @@
-  # GitHub User Finder
+   # GitHub User Finder
 
 A simple React app built with Vite and Tailwind CSS.  
 This app lets you search GitHub users by username or name and displays user details in cards.
